@@ -21,6 +21,7 @@ class bao(object):
             line = Converter('zh-hans').convert(line.decode('utf-8'))
             line = line.encode('utf-8')
             result.append(line)
+            print 'test'
         return result
 
 
